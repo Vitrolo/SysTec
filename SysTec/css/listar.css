@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: linear-gradient(100.45deg, #4266f5, rgb(255, 114, 255));  
+    display: flex;
+    justify-content: center;
+}
+
+section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    display: flex;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.botao-deletar{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.096);
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.096);
+}
+
+.botao-deletar:hover
+{
+    background: black;
+    color: #fff
+}
+
+.botao-editar{
+    margin: 20px;
+    width: 150px;
+    height: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.096);
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.096);
+}
+
+.botao-editar:hover
+{
+    background: black;
+    color: #fff
+}
+
+.h1botao
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botao-inicio
+{
+    margin: 20px;
+    width: 150px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.096);
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.096);
+}
+
+.botao-inicio:hover
+{
+    background: black;
+    color: #fff
+}
